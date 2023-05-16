@@ -1,0 +1,125 @@
+[ 
+{
+    "name":"SoccerBall",
+    "description":"This is the best Soccer ball in the whole world",
+    "brand":"Adidas",
+    "price":26,
+    "rating":4.9,
+    "isFeatured":true,
+    "imageUrl": "http://localhost:3000/static/media/football.0cbf4d8a5d67d2e770c1.avif"
+},
+
+{
+    
+    "name":"Rugby Ball",
+    "description":"This is the best rugby ball in the whole world.",
+    "brand":"Gilbert",
+    "price":36,
+    "rating":4.6,
+    "isFeatured":true,
+    "imageUrl":"http://localhost:3000/static/media/Rugby.4123e002566224bd209e.avif"
+
+},
+
+{
+    "name":"BaseBall",
+    "description":"This is the best Soccer ball in the whole world.",
+    "brand":"Rawlings",
+    "price":18,
+    "rating":4.2,
+    "isFeatured":true,
+    "imageUrl":"http://localhost:3000/static/media/baseball.6860d6902e40bb901469.avif"
+},
+
+{
+    "name":"Laptop",
+    "description":"This is the best Laptop in the whole world.",
+    "brand":"Dell",
+    "price":630,
+    "rating":4.5,
+    "isFeatured":true,
+    "imageUrl":"http://localhost:3000/static/media/laptop.9c88960c2cd877c2e0c8.avif"
+},
+
+{
+    "name":"IphoneXR",
+    "description":"This is the best Phone in the whole world.",
+    "brand":"Apple",
+    "price":600,
+    "rating":3.5,
+    "isFeatured":true,
+    "imageUrl":"http://localhost:3000/static/media/iphone.32195feae0494dd25f5d.avif"
+},
+
+{
+    "name":"Headphones",
+    "description":"This is the best Phone in the whole world.",
+    "brand":"Philips",
+    "price":260,
+    "rating":4.3,
+    "isFeatured":true,
+    "imageUrl":"http://localhost:3000/static/media/Headphones.acdf93ed287ef2981cc8.avif"
+},
+
+{
+    "name":"School Bag",
+    "description":"This is the best School Bag in the whole world.",
+    "brand":"F-Gear",
+    "price":60,
+    "rating":4.3,
+    "isFeatured":true,
+    "imageUrl":"http://localhost:3000/static/media/schoolBag.67556fb10ece4f4052b3.avif"
+},
+
+{
+    "name":"Sharpies",
+    "description":"This is the best Sharpies in the whole world.",
+    "brand":"S-Note",
+    "price":20,
+    "rating":4,
+    "isFeatured":false,
+    "imageUrl":"http://localhost:3000/static/media/Sharpie.c2db142bbf90e39e0492.jpg"
+},
+
+{
+    "name":"White-Force 3",
+    "description":"This is the best Shoes in the whole world.",
+    "brand":"Nike",
+    "price":260,
+    "rating":4,
+    "isFeatured":false,
+    "imageUrl":"http://localhost:3000/static/media/Shoes.8d2bc98da09b01296857.avif"
+},
+
+{
+    "name":"Dial Analog Watch",
+    "description":"This is the best Watch in the whole world.",
+    "brand":"Tissot",
+    "price":280,
+    "rating":4,
+    "isFeatured":false,
+    "imageUrl":"http://localhost:3000/static/media/Watch.45ac3a499ddcf588fbd0.avif"
+},
+
+{
+    "name":"Navy-Tie",
+    "description":"This is the best Navy-Tie in the whole world.",
+    "brand":"QBSM",
+    "price":60,
+    "rating":4.5,
+    "isFeatured":false,
+    "imageUrl":"http://localhost:3000/static/media/tie.5b621e68fb302fa193e9.avif"
+},
+
+{
+
+    "name":"TreadMill",
+    "description":"This is the best TreadMill in the whole world.",
+    "brand":"NordicTrack",
+    "price":560,
+    "rating":4.7,
+    "isFeatured":true,
+    "imageUrl":"http://localhost:3000/static/media/treadmill.e5438cdefe0c20843ee1.avif"
+}
+
+]
