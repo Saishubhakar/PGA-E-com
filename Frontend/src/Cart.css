@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cartPage{
+    background: center/cover no-repeat url("./Images/cartimage.avif");
+}
+
+.headingDiv{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin: 0px 0px 0px 10px;
+}
+
+.cartHeading{
+    font-size: 2.3rem;
+    margin: 15px 15px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.totalCart{
+    display: flex;
+    width: 98.5vw;
+}
+
+.actualCart{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0px 20px 100px 10px;
+    padding: 15px 10px 15px 5px;
+    width: 74%;
+    background-color: rgba(236, 236, 236, 0.5);
+}
+
+#cartItem3{
+    border-bottom: 1px solid #000000;
+}
+/* 
+#cartItem1:hover{
+    background-color: rgb(244, 244, 244);
+    cursor: pointer;
+}
+
+#cartItem2:hover{
+    background-color: rgb(244, 244, 244);
+    cursor: pointer;
+}
+
+#cartItem3:hover{
+    background-color: rgb(244, 244, 244);
+    cursor: pointer;
+} */
+
+.cartItem{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.514);
+    padding: 10px;
+    margin: 5px 0px 15px 0px;
+}
+
+
+.cartItemImage{
+    /* background-color: orange; */
+    width: 20%;
+    height: 100%;
+    background-image: url("./Images/accessoriesOption.avif");
+    background-size: 100% 100%;
+}
+
+#cartItemImage1{
+    background-image: url("./Images/yogamat.avif");
+}
+
+#cartItemImage2{
+    background-image: url("./Images/laptop.avif");
+}
+
+#cartItemImage3{
+    background-image: url("./Images/Watch.avif");
+}
+
+.cartItemInfo{
+    width: 68%;
+    height: 100%;
+}
+
+.cItemInfo{
+    font-size: 1.15rem;
+    margin: 0px 0px 10px 0px;
+    font-weight: 600;
+}
+
+
+.status{
+    color: green;
+    font-weight: 900;
+    margin: 0px 0px 10px 0px;
+    font-size: 1.1rem;
+}
+
+
+.priceDiv{
+    height: 100%;
+    width: 10%;
+}
+
+.Priceheading{
+    text-align: center;
+    margin: 0px 0px 12px 0px;
+}
+
+.price{
+    font-size: 1.1rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.MoreDet{
+    width: 23%;
+    padding: 5px;
+}
+
+.orderDetails{
+    height: 20vh;
+    padding: 13px;
+    margin: 0px 0px 10px 0px;
+    background-color: rgba(236, 236, 236, 0.5);
+}
+
+.SubTotal{
+    font-size: 1.2rem;
+}
+
+.checkoutButton{
+    background-color: green;
+    width: 100%;
+    margin: 15px 0px 0px 0px;
+    border: none;
+}
+
+.newArrHeading{
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+    margin: 40px 0px 10px 0px;
+}
+
+.newArrInfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 18vh;
+    width:95%;
+    padding: 5px;
+    background-color: rgba(236, 236, 236, 0.5);
+    border-top: 1px solid black;
+}
+
+.newArrImage{
+    width: 7.5vw;
+    height: 85%;
+    background-size: 100% 100%;
+}
+
+#newArrImage1{
+    background-image: url("./Images/Sharpie.jpg");
+}
+
+#newArrImage2{
+    background-image: url("./Images/twister.jpg");
+}
+
+#newArrImage3{
+    background-image: url("./Images/Shoes.avif");
+}
+
+.newArrDetails{
+    width: 13vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Detailsheading{
+    font-weight: 600;
+    margin: 1.5px 0px;
+    font-size: 1.1rem;
+}
+
+.DetailsPrice{
+    margin: 2px 0px;
+    font-size: 1rem;
+}
+
+.DetailsButton{
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 2px 7px 0px 7px;
+    margin: 3px 0px;
+    font-size: 0.95rem;
+}
+
+@media screen and (max-width:900px) {
+
+    .cartHeading{
+        margin: 10px 0px;
+    }
+
+    .MoreDet{
+        display: none;
+    }
+
+    .actualCart{
+        width: 100%;
+        margin: 10px 5px;
+    }
+
+    .cartItem{
+        height: 20vh;
+        margin: 0px;
+    }
+
+    .cartItemImage{
+        height: 60%;
+        width: 23%;
+        margin-top: -30px;
+    }
+    
+    .cartItemInfo{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .disapper{
+        display: none;
+    }
+    
+    .cItemInfo{
+        text-align: center;
+        font-size: 0.85rem;
+        padding: 5px;
+        margin: 5px 0px;
+        font-weight: 800;
+    }
+    .status{
+        font-size: 0.9rem;
+        margin: 0px;
+        text-align: center;
+        margin: 4px 0px;
+    }
+
+    .color{
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    .Priceheading{
+        font-size: 0.75rem;
+        margin: 10px 0px 0px 0px;
+    }
+    .price{
+        font-size: 0.9rem;
+    }
+}

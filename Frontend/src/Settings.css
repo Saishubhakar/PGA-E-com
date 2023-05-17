@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.settingsPage{
+    background-image: url("./Images//settingsBackground.avif");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+
+.Soptions{
+    background-color: white;
+    width: 50vw;
+    margin: 40px 0px;
+}
+
+.settingsHeading{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.settingsUl{
+    margin-left: 25px;
+}
+
+.settingsUl li{
+    margin: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.settingsUl li:hover{
+    text-decoration: underline;
+}
+
+.settingsUl li a{
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+    width:30vw;
+}
+
+#settings{
+    color: white;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:900px) {
+    .Soptions{
+        width: 90vw;
+    }
+
+    .settingsHeading{
+        padding: 20px 0px;
+    }
+}

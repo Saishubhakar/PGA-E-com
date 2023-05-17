@@ -1,0 +1,84 @@
+/* From here are the sports images */
+#football {
+    background-image: url("Images/football.avif");
+    background-size: 100% 100%;
+}
+
+#rugby {
+    background-image: url("Images/Rugby.avif");
+    background-size: 100% 100%;
+}
+
+#baseball {
+    background-image: url('Images/baseball.avif');
+    background-size: 100% 100%;
+}
+
+
+/* From here are the electronics images */
+
+#laptop {
+    background-image: url("Images/laptop.avif");
+    background-size: 100% 100%;
+}
+
+#phone{
+    background-image: url("Images/iphone.avif");
+    background-size: 100% 100%;
+}
+
+#headphones {
+    background-image: url("Images/Headphones.avif");
+    background-size: 100% 100%;
+}
+
+/* From here are the school images */
+
+#bag {
+    background-image: url("Images/schoolBag.avif");
+    background-size: 100% 100%;
+}
+
+#sharpie {
+    background-image: url("Images/Sharpie.jpg");
+    background-size: 100% 100%;
+}
+
+#crayon{
+    background-image: url("Images/crayons.avif");
+    background-size: 100% 100%;
+}
+
+/* From here are the general images */
+
+#shoes {
+    background-image: url("Images/Shoes.avif");
+    background-size: 100% 100%;
+}
+
+#watch {
+    background-image: url("Images/Watch.avif");
+    background-size: 100% 100%;
+}
+
+#tie {
+    background-image: url("Images/tie.avif");
+    background-size: 100% 100%;
+}
+
+/* From here are the general images */
+
+/* #treadmill{
+    background-image: url("Images/treadmill.avif");
+    background-size: 100% 100%;
+} */
+
+#twister {
+    background-image: url("Images/twister.jpg");
+    background-size: 100% 100%;
+}
+
+#yogamat {
+    background-image: url("Images/yogamat.avif");
+    background-size: 100% 100%;
+}
