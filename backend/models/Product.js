@@ -22,20 +22,10 @@ const ProductSchema = new mongoose.Schema({
         required:true
     },
 
-    // category:{
-    //     type:mongoose.Schema.Types.ObjectId,
-    //     ref:'Category',
-    //     required:true
-    // },
 
     rating:{
         type:Number,
         default:0
-    },
-
-    isFeatured:{
-        type:Boolean,
-        default:false
     },
 
     imageUrl:{
