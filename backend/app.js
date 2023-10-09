@@ -3,7 +3,7 @@ const app = express();
 const cors = require("cors");
 const connectDB = require("./db/connect");
 const connectionString =
-  "mongodb+srv://Onepiece-E-commerce:onepiece@cluster0.eqfu2or.mongodb.net/OnepieceUsers";
+  "mongodb+srv://PGA-E-Com:PGAECom@cluster0.eqfu2or.mongodb.net/PGAUsers";
 
 const User = require("./models/User");
 const notFound = require("./middleware/notFound");
@@ -11,7 +11,6 @@ const jwt = require("jsonwebtoken");
 const secretKey = "secretKey";
 const routes = require("./routes/route");
 const productsRoutes = require("./routes/productroutes")
-// const verify = require("./middleware/verify")
 
 app.use(express.json());
 app.use(cors());
