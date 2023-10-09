@@ -107,6 +107,8 @@ const getAllProducts =
     // res.status(200).json({products, nbHits: products.length})
   });
 
+
+
 module.exports = {
   getProducts,
   createProducts,
