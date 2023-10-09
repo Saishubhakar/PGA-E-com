@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const jwt = require("jsonwebtoken");
 const User = require("../models/User");
-// const secretKey = "secretKey";
+const secretKey = "secretKey";
 
 const registerUser =
   ("/api/register",
@@ -30,8 +30,9 @@ const loginUser =
     });
 
     if (user) {
-      return res.status(200).json({ user });
-    } 
+      const accessToken = jwt.sign({_id:user._id},  secretKey, {expiresIn:'1m'});
+      return res.status(200).send({data:{user, accessToken}});
+    }
     
     else {
       console.log("User does not exist");
@@ -40,25 +41,6 @@ const loginUser =
     
   });
 
-// const verifyToken = (req, res, next) => {
-//   const bearerHead = req.headers.authorization;
-
-//   if (!bearerHead || !bearerHead.startsWith("Bearer ")) {
-//     res.status(500).send("Some error occured");
-//   }
-
-//   const token = bearerHead.split(" ")[1];
-
-//   try {
-//     const decoded = jwt.verify(token, secretKey);
-
-//     const { email, password } = decoded;
-//     req.user = { email, password };
-//     next();
-//   } catch (error) {
-//     res.status(500).send("Something went wrong");
-//   }
-// };
 
 const deleteUser =
   ("/api/delete",
@@ -98,9 +80,26 @@ const updateUser =
     }
   });
 
+
+
+const protectedData = ('/protected-data', async(req, res) => {
+  const accessToken = req.headers.authorization.split(' ')[1];
+
+  try {
+    const decodedToken = jwt.verify(accessToken, secretKey);
+    const usid = decodedToken._id
+    const UserInfo = await User.findOne({_id:usid})
+    
+    res.json({ message: 'Protected data', user: UserInfo });
+  } catch (error) {
+    res.status(401).json({ message: 'Unauthorized' });
+  }
+});
+
 module.exports = {
   registerUser,
   loginUser,
   deleteUser,
   updateUser,
+  protectedData,
 };
