@@ -54,13 +54,13 @@ const Categories = (props) => {
       <div className='contain'>
         <div className='option'>
 
-          <a href='/OnePiece' className='OptionsCards' id='elecOptions'>
+          <a href='/PGA' className='OptionsCards' id='elecOptions'>
             <div className='readhover'>
               <div className='catname'>ELECTRONICS</div>
             </div>
           </a>
 
-          <a href='/OnePiece' className='OptionsCards' id='sportsOptions'>
+          <a href='/PGA' className='OptionsCards' id='sportsOptions'>
             <div className='readhover'>
               <div className='catname'>SPORTS</div>
             </div>
@@ -70,14 +70,14 @@ const Categories = (props) => {
 
         <div className='option'>
 
-          <a href='/OnePiece' className='OptionsCards' data-aos="zoom-in" data-aos-duration="1300"
+          <a href='/PGA' className='OptionsCards' data-aos="zoom-in" data-aos-duration="1300"
             data-aos-once="true" id='yogaOptions'>
             <div className='readhover'>
               <div className='catname'>YOGA</div>
             </div>
           </a>
 
-          <a href='/OnePiece' className='OptionsCards' data-aos="zoom-in" data-aos-duration="1300" data-aos-once="true" id='gymOptions'>
+          <a href='/PGA' className='OptionsCards' data-aos="zoom-in" data-aos-duration="1300" data-aos-once="true" id='gymOptions'>
             <div className='readhover'>
               <div className='catname'>GYM</div>
             </div>
@@ -87,14 +87,14 @@ const Categories = (props) => {
 
         <div className='option'>
 
-          <a href='/OnePiece' className='OptionsCards' data-aos-duration="1300" data-aos="zoom-in"
+          <a href='/PGA' className='OptionsCards' data-aos-duration="1300" data-aos="zoom-in"
             data-aos-once="true" id='schoolOptions'>
             <div className='readhover'>
               <div className='catname'>BACK TO SCHOOL</div>
             </div>
           </a>
 
-          <a href='/OnePiece' className='OptionsCards' data-aos-duration="1300" data-aos="zoom-in"
+          <a href='/PGA' className='OptionsCards' data-aos-duration="1300" data-aos="zoom-in"
             data-aos-once="true" id='accessoriesOption'>
             <div className='readhover'>
               <div className='catname'>ACCESSORIES</div>
@@ -107,7 +107,7 @@ const Categories = (props) => {
 
         <div className='join'>Sell your stuff</div>
         <div className='Addinfo'>
-          OnePiece E-commerce webiste is not just about buying good and branded stuff. It is also a place you can sell your ACCESSORIES. Very soon we are launching "MEET-AND-SELL" program which benefits you to sell your ACCESSORIES with the largest market value and the interest part about it is that you'll not be charged tax on the stuff you sell. Make sure you follow us for the regular updates of the program. Our Website makes sure that our customer's satisfication is our prior goal and not the market pressure. Our motto is particularly on terms of <b> When customer purchases from us, he becomes one of us. </b>. We appreciate the idea of franchise and would love to start a franchisey 
+          PGA ShoppingHub is not just about buying good and branded stuff. It is also a place you can sell your ACCESSORIES. Very soon we are launching "MEET-AND-SELL" program which benefits you to sell your ACCESSORIES with the largest market value and the interest part about it is that you'll not be charged tax on the stuff you sell. Make sure you follow us for the regular updates of the program. Our Website makes sure that our customer's satisfication is our prior goal and not the market pressure. Our motto is particularly on terms of <b> When customer purchases from us, he becomes one of us. </b>. We appreciate the idea of franchise and would love to start a franchise. Start selling your products Here:- <a href='http://localhost:3000/sellproducts'>MEET AND SELL</a>
 
         </div>
 

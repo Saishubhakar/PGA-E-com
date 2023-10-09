@@ -28,10 +28,6 @@ const Navbar = (props) => {
             <li>
               <a href="/cart">Cart</a>
             </li>
-
-            <li>
-              <a href="/productCreate">AddProduct</a>
-            </li>
             
           </ul>
 

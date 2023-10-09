@@ -6,7 +6,6 @@ const ProductCreate = () => {
   const [brand, setbrand] = useState("");
   const [price, setprice] = useState("");
   const [rating, setrating] = useState("");
-  const [isFeatured, setisFeatured] = useState("");
   const [imageUrl, setimageUrl] = useState("");
 
   async function CreateProd(event) {
@@ -23,7 +22,6 @@ const ProductCreate = () => {
         brand,
         price,
         rating,
-        isFeatured,
         imageUrl,
       }),
     });
@@ -71,14 +69,6 @@ const ProductCreate = () => {
             name=""
             placeholder="Rating"
             onChange={(e) => setrating(e.target.value)}
-          ></input>
-          
-          <input
-            type={"text"}
-            className="contactinput"
-            name=""
-            placeholder="IsFeatured"
-            onChange={(e) => setisFeatured(e.target.value)}
           ></input>
           
           <input

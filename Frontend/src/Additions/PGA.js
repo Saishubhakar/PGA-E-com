@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import CardTemplate from "./CardTemplate";
 import axios from "axios";
 
-const Onepiece = (props) => {
+const PGA = (props) => {
   const [products, Setproducts] = useState([]);
   const [minPrice, setMinPrice] = useState("");
   const [maxPrice, setMaxPrice] = useState("");
@@ -199,4 +199,4 @@ const Onepiece = (props) => {
   );
 };
 
-export default Onepiece;
+export default PGA;

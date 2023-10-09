@@ -1,8 +1,17 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
+  function alert(message){
+    window.alert(message)
+  }
+
+  useEffect(()=>{
+    alert("You are not login, Please login");
+  }, [1])
+
 
   async function LoginUser(event) {
     event.preventDefault();
@@ -17,17 +26,25 @@ const Login = () => {
         email,
         password,
       }),
+      
     });
 
     const status = response.status
 
-    if(status === 200){
-      window.alert("Logged in successfully")
-      window.location.href = "http://localhost:3000/"
+    const data = await response.json()
+    const userToken = data.data.accessToken
+    localStorage.setItem("token", userToken)
+    localStorage.setItem("LoggedIn", true)
+    const logg = localStorage.getItem("LoggedIn")
+    console.log(logg, "LoggedIn")
+
+    if(logg && status === 200){
+      window.location.href = "http://localhost:3000/PGA"
     }
     else{
-      window.alert("Invalid credentials")
+      alert("Enter valid credentials please")
     }
+
   }
 
   return (
